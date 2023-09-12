@@ -1,0 +1,31 @@
+body {
+  background-image: url('../backgroundImg/background.jpg');
+  background-size: cover;
+}
+
+#grid tr:nth-child(odd) {
+  background-color: #f4f4f4;
+}
+
+#grid tr:nth-child(even) {
+  background-color: #cccccc;
+}
+
+
+.round {
+  border-radius: 50%;
+}
+
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  transform: scale(1.2);
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
